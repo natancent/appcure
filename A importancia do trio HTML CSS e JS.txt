@@ -1,0 +1,12 @@
+HTML 
+É uma linguagem de marcação de texto através de sinais < > , algumas palavras especiais ficam entre os dois sinais para marcá-la para o navegador que ela é importante na construção da página , serve para "colar" e organizar toda a estrutura juntas para a formação da página.
+exemplos: <main>  ,<body> , <section>,<h>.
+
+CSS
+É uma linguagem de estilização de uma página ,é ele que dá a aparencia para nossa estrutura de HTML ,como:
+Cores,tamanho de itens,posição na página,animação e transição.
+Faz se uma comparação que diz: HTML é comparado com nossa estrutura óssea,enquanto que CSS é comparado a nossa pele,cor de cabelo,etc...
+
+JAVASCRIPT
+É uma linguagem de programação, de fato (as outras não são).
+Com ele conseguimos dar dinamismo e interatividade á nossa página,como por exemplo,ele determina o que acontece ao clicarmos em um botão de "Enviar" ,ou o que acontece ao passarmos o mouse por cima de algum elemento que tenha algum comportamento específico.
