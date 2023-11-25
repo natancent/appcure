@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Flexbox Exercise</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .outer-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .inner-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .box {
+            width: 80px;
+            height: 80px;
+            background-color: #3498db;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Customize styles as needed */
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="box">A</div>
+            <div class="box">B</div>
+        </div>
+        <div class="inner-container">
+            <div class="box">C</div>
+            <div class="box">D</div>
+        </div>
+        <div class="inner-container">
+            <div class="box">E</div>
+            <div class="box">F</div>
+        </div>
+    </div>
+</body>
+</html>

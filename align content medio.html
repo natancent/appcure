@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Align Content Médio</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            width: 500px;
+            height: 100vh;
+            background-color: lightgray;
+            align-content: center;
+        
+            
+            
+            
+            
+            
+        }
+
+        .box {
+            background-color: crimson;
+            width: 100px;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+            
+        }
+        .dif{
+            height: 5.6em;
+        }
+        .lado{
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+            gap: 11px;
+            justify-content: center;
+           
+            
+        }
+        .two{
+            margin-top: 10px;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box dif">A</div>
+        <div class="lado">
+            <div class="box">B</div>
+            <div class="box">C</div>
+            <div class="box">D</div>
+            <div class="box ">E</div>
+            <div class="box">F</div>
+            <div class="box">G</div>
+            
+        </div>
+
+        
+    </div>
+    <!--<div class="container two">
+        <div class="box dif">A</div>
+        <div class="lado">
+            <div class="box">B</div>
+            <div class="box">C</div>
+            <div class="box">D</div>
+            <div class="box ">E</div>
+            <div class="box">F</div>
+            <div class="box">G</div>
+            
+        </div>
+
+        
+    </div>
+</body>
+</html>

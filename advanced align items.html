@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced align items</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 3em;
+            background-color: rgb(230, 228, 228);
+        }
+
+        .outter-container{
+                display: flex;
+                height: 200px;
+                width: 300px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0 1em 2em rgb(192, 197, 197);
+                border-radius: 10%;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5em;
+            
+        }
+        .inner-containner{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            width: 10em;
+            height: 200px;
+            gap: 5px;
+            align-items: center;
+
+        }
+        .box{
+            display: flex;
+            background-color: rgb(125, 132, 226);
+            width: 8em;
+            height: 80px;
+            margin-top: 10px;
+            border-radius: 10%;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            color: rgb(255, 255, 255);
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+        }
+
+</style>
+</head>
+<body>
+    <section class="outter-container">
+        <div class="inner-containner">
+            <div class="box "><h2>A</h2></div>
+            <div class="box "><h2>B</h2></div>
+        </div>
+        <div class="inner-containner">
+            <div class="box "><h2>C</h2></div>
+            <div class="box "><h2>D</h2></div>
+        </div>
+        <div class="inner-containner">
+            <div class="box "><h2>E</h2></div>
+            <div class="box "><h2>F</h2></div>
+        </div>
+    </section>
+</body>
+</html>

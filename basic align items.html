@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items Challenge</title>
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 0.5em;
+            justify-content: space-around;
+            
+            align-items:stretch;/* Experimente diferentes valores para alinhar as linhas */;
+            width: 80%;
+            height: 100vh;
+            background-color: lightgray;
+        }
+
+        .element {
+            background-color: crimson;
+            height: 5em;
+            width: 5em;
+        }
+
+        .element-tall {
+            height: 8em;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element element-tall"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element element-tall"></div>
+    </section>
+</body>
+</html>
